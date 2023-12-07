@@ -1,0 +1,12 @@
+.nav ul{
+    list-style: none;
+    display: flex;
+}
+
+.nav li:not(:last-child) {
+    margin-right: 40px;
+}
+
+.nav :global(.active) {
+    color: red;
+}

@@ -1,9 +1,9 @@
 import {BrowserRouter, Route, Routes} from 'react-router-dom'
 import './App.css'
-import Product from './Product'
-import Homepage from './HomePage'
-import Pricing from './Pricing'
-import PageNotFound from './PageNotFound'
+import Product from './pages/Product'
+import Homepage from './pages/Homepage'
+import Pricing from './pages/Pricing'
+import PageNotFound from './pages/PageNotFound'
 
 function App() {
   return (

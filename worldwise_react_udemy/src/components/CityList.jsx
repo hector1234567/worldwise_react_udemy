@@ -8,7 +8,7 @@ function CityList({ cities, isLoading }) {
 
     return ( 
         <ul className={styles.cityList}>
-        {cities.map(city => <CityItem city={city} key={city.cityName}/>)}
+        {cities.map(city => <CityItem city={city} key={city.id}/>)}
         </ul>
     )
 }

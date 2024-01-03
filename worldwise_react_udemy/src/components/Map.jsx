@@ -4,10 +4,13 @@ import styles from "./Map.module.css"
 // import { useState } from "react";
 import { useCities } from "../contexts/CitiesContext";
 import { useEffect, useState } from "react";
+import { useGeolocation } from "../hooks/useGeolocation";
+import Button from "./Button";
 
 function Map() {
     const [mapPosition, setMapPosition] = useState([40, 0])
     const [searchParams] = useSearchParams();
+    const {isLoading: isLoadingPosition, position: geolocationPosition, getPosition} = useGeolocation()
 
     const mapLat = searchParams.get('lat');
     const mapLng = searchParams.get('lng');
@@ -17,10 +20,17 @@ function Map() {
             setMapPosition([mapLat, mapLng]);
     }, [mapLat, mapLng]);
 
+    useEffect(() => {
+        if(geolocationPosition)
+            setMapPosition([geolocationPosition.lat, geolocationPosition.lng]);
+    }, [geolocationPosition])
 
     const {cities} = useCities();
     return (
         <div className={styles.mapContainer}>
+            {!geolocationPosition && <Button type="position" handleOnClick={getPosition}>
+                {isLoadingPosition ? 'Loading...' : 'Use your position'}
+            </Button>}
             <MapContainer center={mapPosition} zoom={6} scrollWheelZoom={false} className={styles.map}>
                 <TileLayer
                     attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'

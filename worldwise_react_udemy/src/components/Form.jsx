@@ -8,6 +8,9 @@ import BackButton from "./BackButton";
 import { useUrlPosition } from "../hooks/useUrlPosition";
 import Spinner from "./Spinner";
 import Message from "./Message";
+import DatePicker from "react-datepicker";
+
+import "react-datepicker/dist/react-datepicker.css";
 
 export function convertToEmoji(countryCode) {
   const codePoints = countryCode
@@ -25,11 +28,14 @@ function Form() {
   const [emoji, setEmoji] = useState("");
   const [errorMsg, setErrorMsg] = useState("");
 
+  const [startDate, setStartDate] = useState(new Date());
+
   const {mapLat, mapLng} = useUrlPosition();
 
   const [isLoadingCityData, setIsLoadingCityData] = useState(false);
   
   useEffect(() => {
+    if(!mapLat && !mapLng) return;
     async function fetchCityData() {
       try {
         setIsLoadingCityData(true);
@@ -51,6 +57,7 @@ function Form() {
 
   if(isLoadingCityData) return <Spinner />
   if(errorMsg) return <Message message={<><span role="img">❌</span>{errorMsg} <span role="img">🤷‍♂️</span></>}></Message>
+  if(!mapLat && !mapLng) return <Message message="Start by clicking somewhere on the map."></Message>;
 
   return (
     <form className={styles.form}>
@@ -66,11 +73,12 @@ function Form() {
 
       <div className={styles.row}>
         <label htmlFor="date">When did you go to {cityName}?</label>
-        <input
+        {/* <input
           id="date"
           onChange={(e) => setDate(e.target.value)}
           value={date}
-        />
+        /> */}
+        <DatePicker id="date" selected={date} onChange={(date) => setDate(date)} dateFormat="dd/MM/yyyy" />
       </div>
 
       <div className={styles.row}>

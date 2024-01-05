@@ -13,18 +13,6 @@
       "id": 73930385
     },
     {
-      "cityName": "Madrid",
-      "country": "Spain",
-      "emoji": "🇪🇸",
-      "date": "2027-07-15T08:22:53.976Z",
-      "notes": "",
-      "position": {
-        "lat": 40.46635901755316,
-        "lng": -3.7133789062500004
-      },
-      "id": 17806751
-    },
-    {
       "cityName": "Berlin",
       "country": "Germany",
       "emoji": "🇩🇪",
@@ -73,40 +61,76 @@
       "id": 98443200
     },
     {
-      "cityName": "Lurcy-Levis",
-      "country": "France",
-      "date": "2024-01-04T16:43:55.494Z",
+      "cityName": "Mieres",
+      "country": "Spain",
+      "date": "2024-01-05T11:01:03.957Z",
       "notes": "",
-      "emoji": "🇫🇷",
+      "emoji": "🇪🇸",
       "position": {
-        "lat": "46.7233302289529",
-        "lng": "2.8564453125000004"
+        "lat": "43.21264755144968",
+        "lng": "-5.800781250000001"
       },
       "id": 98443201
     },
     {
-      "cityName": "Isenthal",
-      "country": "Switzerland",
-      "date": "2024-01-04T16:54:31.778Z",
+      "cityName": "Lucenay-les-Aix",
+      "country": "France",
+      "date": "2024-01-05T11:01:10.439Z",
       "notes": "",
-      "emoji": "🇨🇭",
+      "emoji": "🇫🇷",
       "position": {
-        "lat": "46.857250702272836",
-        "lng": "8.503417968750002"
+        "lat": "46.72437090294779",
+        "lng": "3.5375976562500004"
       },
       "id": 98443202
     },
     {
-      "cityName": "Sazava",
-      "country": "Czechia",
-      "date": "2024-01-04T16:55:02.022Z",
+      "cityName": "Giswil",
+      "country": "Switzerland",
+      "date": "2024-01-05T11:01:16.200Z",
       "notes": "",
-      "emoji": "🇨🇿",
+      "emoji": "🇨🇭",
       "position": {
-        "lat": "49.864913522420395",
-        "lng": "14.897460937500002"
+        "lat": "46.85945275018695",
+        "lng": "8.151855468750002"
       },
       "id": 98443203
+    },
+    {
+      "cityName": "Zavidovici",
+      "country": "Bosnia and Herzegovina",
+      "date": "2024-01-05T11:01:22.402Z",
+      "notes": "",
+      "emoji": "🇧🇦",
+      "position": {
+        "lat": "44.38566621153172",
+        "lng": "18.259277343750004"
+      },
+      "id": 98443204
+    },
+    {
+      "cityName": "Gurkovo",
+      "country": "Bulgaria",
+      "date": "2024-01-05T11:01:26.452Z",
+      "notes": "",
+      "emoji": "🇧🇬",
+      "position": {
+        "lat": "42.762183014349716",
+        "lng": "25.751953125000004"
+      },
+      "id": 98443205
+    },
+    {
+      "cityName": "Krasnyi Mak",
+      "country": "Ukraine",
+      "date": "2024-01-05T11:01:39.690Z",
+      "notes": "",
+      "emoji": "🇺🇦",
+      "position": {
+        "lat": "44.652419518387404",
+        "lng": "33.75000000000001"
+      },
+      "id": 98443206
     }
   ]
 }

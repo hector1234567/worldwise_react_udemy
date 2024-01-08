@@ -25,18 +25,6 @@
       "id": 98443197
     },
     {
-      "cityName": "Zaragoza",
-      "country": "Spain",
-      "date": "2024-01-04T16:12:07.614Z",
-      "notes": "",
-      "emoji": "🇪🇸",
-      "position": {
-        "lat": "41.62722664847032",
-        "lng": "-0.8569335937500001"
-      },
-      "id": 98443198
-    },
-    {
       "cityName": "Encamp",
       "country": "Andorra",
       "date": "2024-01-04T16:12:07.614Z",
@@ -47,30 +35,6 @@
         "lng": "1.7358398437500002"
       },
       "id": 98443199
-    },
-    {
-      "cityName": "Gijon",
-      "country": "Spain",
-      "date": "2024-01-04T16:23:19.324Z",
-      "notes": "",
-      "emoji": "🇪🇸",
-      "position": {
-        "lat": "43.48328736230944",
-        "lng": "-5.6689453125"
-      },
-      "id": 98443200
-    },
-    {
-      "cityName": "Mieres",
-      "country": "Spain",
-      "date": "2024-01-05T11:01:03.957Z",
-      "notes": "",
-      "emoji": "🇪🇸",
-      "position": {
-        "lat": "43.21264755144968",
-        "lng": "-5.800781250000001"
-      },
-      "id": 98443201
     },
     {
       "cityName": "Lucenay-les-Aix",
@@ -85,52 +49,28 @@
       "id": 98443202
     },
     {
-      "cityName": "Giswil",
-      "country": "Switzerland",
-      "date": "2024-01-05T11:01:16.200Z",
-      "notes": "",
-      "emoji": "🇨🇭",
+      "cityName": "Calarasi",
+      "country": "Moldova (the Republic of)",
+      "date": "2024-01-08T15:09:39.017Z",
+      "notes": "dfghrfgh",
+      "emoji": "🇲🇩",
       "position": {
-        "lat": "46.85945275018695",
-        "lng": "8.151855468750002"
-      },
-      "id": 98443203
-    },
-    {
-      "cityName": "Zavidovici",
-      "country": "Bosnia and Herzegovina",
-      "date": "2024-01-05T11:01:22.402Z",
-      "notes": "",
-      "emoji": "🇧🇦",
-      "position": {
-        "lat": "44.38566621153172",
-        "lng": "18.259277343750004"
-      },
-      "id": 98443204
-    },
-    {
-      "cityName": "Gurkovo",
-      "country": "Bulgaria",
-      "date": "2024-01-05T11:01:26.452Z",
-      "notes": "",
-      "emoji": "🇧🇬",
-      "position": {
-        "lat": "42.762183014349716",
-        "lng": "25.751953125000004"
-      },
-      "id": 98443205
-    },
-    {
-      "cityName": "Krasnyi Mak",
-      "country": "Ukraine",
-      "date": "2024-01-05T11:01:39.690Z",
-      "notes": "",
-      "emoji": "🇺🇦",
-      "position": {
-        "lat": "44.652419518387404",
-        "lng": "33.75000000000001"
+        "lat": "47.38315148065435",
+        "lng": "28.454589843750004"
       },
       "id": 98443206
+    },
+    {
+      "cityName": "Tipperary",
+      "country": "Ireland",
+      "date": "2024-01-08T15:35:43.880Z",
+      "notes": "",
+      "emoji": "🇮🇪",
+      "position": {
+        "lat": "52.428595785795686",
+        "lng": "-7.954101562500001"
+      },
+      "id": 98443208
     }
   ]
 }

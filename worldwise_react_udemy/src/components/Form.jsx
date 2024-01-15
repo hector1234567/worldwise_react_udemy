@@ -30,7 +30,7 @@ function Form() {
   const [emoji, setEmoji] = useState("");
   const [errorMsg, setErrorMsg] = useState("");
 
-  const [startDate, setStartDate] = useState(new Date());
+  // const [startDate, setStartDate] = useState(new Date());
 
   const {mapLat, mapLng} = useUrlPosition();
 
